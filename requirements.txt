@@ -1,10 +1,13 @@
-black
-flake8
-isort
-loguru
-mkdocs
-pip
-python-dotenv
-tqdm
-typer
+# local package
 -e .
+
+# external requirements
+flake8
+cookiecutter
+dvc 
+numpy
+pandas 
+sklearn 
+mlflow
+joblib
+flask 
